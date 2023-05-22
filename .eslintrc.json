@@ -1,3 +1,7 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules":{ // Esto no es recomendable hacer. Solo en este proyecto
+    "@next/next/no-img-element":"off",
+    "jsx-a11y/alt-text":"off"
+  }
 }

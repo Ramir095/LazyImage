@@ -14,6 +14,8 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "noImplicitAny": true, // que no nos permita los tipos en "Any"
+    "noImplicitReturns": true, // ni nos permita los returns de funciones implicitas
     "paths": {
       "@/*": ["./*"]
     }
